@@ -2,4 +2,8 @@
 ==============
 Our Repository for Modjam
 
-Eventually stuff will be here! 
+stuff is here!!!! 
+
+Poke through the code if yar like
+
+By Tech and Metgame
