@@ -17,13 +17,12 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class vase_green extends BlockContainer {
+public class vase_red extends BlockContainer {
 
 
-    public vase_green(int id) {
+    public vase_red(int id) {
             super(id, Material.glass);
     }
-
     @Override
     public boolean onBlockActivated(World world, int x, int y, int z,
                                     EntityPlayer player, int idk, float what, float these, float are) {
@@ -69,9 +68,10 @@ public class vase_green extends BlockContainer {
                     }
     }
     
+
     @Override
     public TileEntity createNewTileEntity(World world) {
-            return new gr_VaseTileEntity();
+            return new rd_VaseTileEntity();
     }
     
 
@@ -94,7 +94,7 @@ public class vase_green extends BlockContainer {
     @SideOnly(Side.CLIENT)
     public void registerIcons(IconRegister ir)
     {
-    this.blockIcon = ir.registerIcon( "vasemod:vase_green");
+    this.blockIcon = ir.registerIcon( "vasemod:vase_red");
     }
 
 }

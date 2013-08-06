@@ -11,11 +11,11 @@ import net.minecraft.network.packet.Packet132TileEntityData;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-public class bl_VaseTileEntity extends TileEntity implements IInventory {
+public class cy_VaseTileEntity extends TileEntity implements IInventory {
 	
 	private String localizedName;
     private ItemStack[] inv;
-    public bl_VaseTileEntity(){
+    public cy_VaseTileEntity(){
                     inv = new ItemStack[9];
     }
    
